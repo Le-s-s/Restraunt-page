@@ -1,0 +1,25 @@
+{
+  "name": "restraunt-page",
+  "version": "1.0.0",
+  "description": "Basic page generated with jscript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-s-s/Restraunt-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Le-s-s/Restraunt-page/issues"
+  },
+  "homepage": "https://github.com/Le-s-s/Restraunt-page#readme",
+  "devDependencies": {
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
