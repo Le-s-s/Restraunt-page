@@ -51,10 +51,42 @@ nav button{
 }
 
 .body-content{
+    background-color: aqua;
     height:clamp(40vh,4rem,800px);
     width:clamp(77vw,2rem,200px);
 }
 
 .footer{
     justify-items:center;
+}
+
+.headline-stupid{
+    font-size: clamp(20px,1rem,2rem);
+    justify-items:center;
+}
+
+.headline-stupid img{
+    height:50vh;
+    width:77vw;
+}
+
+.body-content-stupid{
+    height:clamp(40vh,4rem,800px);
+    width:clamp(77vw,2rem,200px);
+}
+
+.body-content-stupid p {
+    background-color: blueviolet;
+    justify-content:center;
+    text-align:center;
+    font-size: clamp(40px,3rem,4rem);
+}
+
+.footer-stupid{
+    background-color: blue;
+    justify-items:center;
+}
+
+.footer-stupid p{
+    font-size: clamp(15px,2rem,3rem);
 }
