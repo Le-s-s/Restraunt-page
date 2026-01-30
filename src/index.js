@@ -1,5 +1,7 @@
 import homePage from "./home.js"
 import stupidPage from "./stupid.js"
+import backFliptPage from "./backflipt.js"
+import methPage from "./meth.js"
 
 
 
@@ -19,11 +21,11 @@ addEventListener("DOMContentLoaded", (event) => {
     });
 
     backFlipt.addEventListener("click", () => {
-        page.backFlipt();
+        backFliptPage.home();
     });
 
     meth.addEventListener("click", () => {
-        page.meth();
+        methPage.home();
     });
 
 });

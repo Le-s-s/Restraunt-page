@@ -11,12 +11,9 @@ const page = (function(){
     const headline = function(webpage){
         const headline = document.createElement("div")
         headline.classList.add('headline-stupid');
-        const h1 = document.createElement("h1");
-        h1.textContent = "Mirror of an idiot."
         const trashImg = document.createElement("img");
         trashImg.src = imageHome;
-        trashImg.alt = "Picture of garbage"
-        headline.appendChild(h1);
+        trashImg.alt = "Picture of Dumb"
         headline.appendChild(trashImg);
         webpage.appendChild(headline);
     }

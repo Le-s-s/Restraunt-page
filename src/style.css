@@ -56,8 +56,12 @@ nav button{
     width:clamp(77vw,2rem,200px);
 }
 
-.footer{
+.footer, .footer-stupid, .footer-meth, .footer-flip{
     justify-items:center;
+}
+
+.footer p, .footer-stupid p, .footer-meth p, .footer-flip p{
+    font-size: clamp(15px,1rem,2rem);
 }
 
 .headline-stupid{
@@ -71,22 +75,25 @@ nav button{
 }
 
 .body-content-stupid{
+    height:20vh;
+    background-color: blueviolet;
     height:clamp(40vh,4rem,800px);
     width:clamp(77vw,2rem,200px);
 }
 
 .body-content-stupid p {
-    background-color: blueviolet;
-    justify-content:center;
-    text-align:center;
-    font-size: clamp(40px,3rem,4rem);
+    height:10vh;
+    text-align: center;
+    align-content: center;
+    font-size: clamp(100px,4rem,5rem);
 }
 
-.footer-stupid{
-    background-color: blue;
-    justify-items:center;
+.body-content-meth img{
+    height:70vh;
+    width:90vw;
 }
 
-.footer-stupid p{
-    font-size: clamp(15px,2rem,3rem);
+.body-content-flip img{
+    height:70vh;
+    width:70vw;
 }
